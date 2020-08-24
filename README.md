@@ -24,7 +24,7 @@ Apollo Universal Starter Kit is an SEO-friendly, fully configured, modular start
 JavaScript] applications. You can use this kit to create your applications in JavaScript or TypeScript for all major
 platforms &ndash; mobile, web, and server.
 
-Apollo Universal Starter Kit is built with [Apollo], [GraphQL], [React], [Angular], [React Native], [Expo], [Knex.js],
+Apollo Universal Starter Kit is built with [Apollo], [GraphQL], [React], [React Native], [Expo], [Knex.js],
 and [Express] with support for relational databases such as PostgreSQL, MySQL, and SQLite.
 
 [TypeScript] is our language of choice and we use it across the entire project. However, you can freely mix vanilla
@@ -162,13 +162,7 @@ For Windows 10:
 * Click the **For Developers** tab
 * In the **Use developer features** window, switch to **Developer Mode**
 
-**NOTE**: You can remove the unnecessary stacks from Apollo Universal Starter Kit by using the CLI. Consult a
-[respective CLI section]. Alternatively, you can use the capabilities of your operating system. For example, by running
-the command below, you can remove all Scala server files:
-
-```bash
-find . -name server-scala | xargs rm -rf
-```
+**NOTE**: You can remove the unnecessary stacks from Apollo Universal Starter Kit by using the CLI. Consult a [respective CLI section].
 
 If you don't need the ready-made modules, you can also remove them using the [custom CLI].
 
@@ -218,12 +212,9 @@ apollo-universal-starter-kit
 ├── modules                     # All the prebuilt project modules
 ├── packages                    # Available packages
 │   ├── client                  # React client
-│   ├── client-angular          # Angular client
-│   ├── client-vue              # Vue client
 │   ├── common                  # Common code
 │   ├── mobile                  # React Native mobile client
 │   ├── server                  # Node.js and Express server
-│   └── server-scala            # Scala server
 └── tools                       # All build and CLI-related files
 ```
 
@@ -235,12 +226,9 @@ the module `modules/core`, you'll see the following sub-modules:
 apollo-universal-starter-kit
 ├── modules                       # Available packages
 │   ├── core                      # The core module
-│       ├── client-angular        # Core functionality for Angular app
 │       ├── client-react          # Core functionality for React app
 │       ├── client-react-native   # Core functionality for React Native app
-│       ├── client-vue            # Core functionality for Vue app
 │       ├── common                # React Native mobile client
-│       ├── server-scala          # Core functionality for Scala server
 │       └── server-ts             # Core functionality for Express server
 └── tools                         # All build and CLI-related files
 ```
@@ -331,7 +319,6 @@ Copyright &copy; 2016-2019 [SysGears (Cyprus) Limited]. This source code is lice
 [graphql]: http://graphql.org
 [jwt]: https://jwt.io
 [react]: https://reactjs.org/
-[angular]: https://angular.io/
 [react native]: https://facebook.github.io/react-native/
 [expo]: https://expo.io/
 [knex.js]: http://knexjs.org

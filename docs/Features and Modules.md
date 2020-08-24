@@ -87,8 +87,6 @@ starter kit was integrated with [Styled Components]. The React Native mobile app
 
 Additionally, you can use [Ant Design] instead of Twitter Bootstrap for the React application.
 
-The Vue client also uses Bootstrap, while Angular is integrated with Angular Material.
-
 ## Google Analytics
 
 We integrated Google Analytics into the starter kit with the help of [React Google Analytics].

@@ -11,21 +11,6 @@ const STACK_MAP = {
     name: 'react',
     subdirs: ['client', 'client-react', 'client-react-native', 'mobile']
   },
-  'client-vue': {
-    title: 'vue',
-    name: 'vue',
-    subdirs: ['client-vue']
-  },
-  'client-angular': {
-    title: 'angular',
-    name: 'angular',
-    subdirs: ['client-angular']
-  },
-  'server-scala': {
-    title: 'scala',
-    name: 'scala',
-    subdirs: ['server-scala']
-  },
   server: {
     title: 'node',
     name: 'node',

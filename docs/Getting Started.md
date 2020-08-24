@@ -58,14 +58,6 @@ You can start changing the application code, and the changes will be applied imm
 can also open the app in multiple tabs and test it: Increase the counter or add a new post or comment, and you'll see
 that all opened tabs are updated simultaneously.
 
-**NOTE**: Apollo Universal Starter Kit provides React, Angular and Vue frontends.
-
-To run Angular frontend execute:
-`yarn watch:angular`
-
-To run Vue frontend execute:
-`yarn watch:vue`
-
 ## Running the Mobile App with Expo
 
 1. Install the Expo Client app on [your Android] or [iOS device].

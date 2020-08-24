@@ -14,12 +14,9 @@ The `packages` folder contains all the currently existing packages in Apollo Uni
 ```
 packages
 ├── client                # The React application core
-├── client-angular        # The Angular application core
-├── client-vue            # The Vue application core
 ├── common                # Common implementation for the client and server modules
 ├── mobile                # The React Native main module
 ├── server                # The Express server module
-└── server-scala          # The Scala server module
 ```
 
 The listed packages don't implement any functionality. Instead, they only import all the modules from the global folder 
@@ -42,14 +39,10 @@ const modules = new ClientModule(
 export default modules;
 ```
 
-Similarly, the Express, Vue, and Angular applications all have the `src/modules.ts` files where you need to import the
+Similarly, the Express applications has the `src/modules.ts` files where you need to import the
 specific modules from `modules`. See the following files:
 
-* `packages/client-angular/src/modules.ts`
-* `packages/client-vue/src/modules.ts`
 * `packages/server/src/modules.ts`
-
-Concerning the Scala application, you can find the imported modules in `packages/server-scala/src/main/scala/Main.scala`.
 
 ## Apollo Universal Starter Kit Modules
 
@@ -62,11 +55,8 @@ technology):
 ```
 modules
 ├── some-module                # The module SomeModule root folder
-    ├── client-angular         # Angular implementation
     ├── client-react           # React implementation
-    ├── client-vue             # Vue implementation
     ├── common                 # Common implementation for the client and server modules
-    ├── server-scala           # Scala server module
     └── server-ts              # Node.js and TypeScript server module
 ```
 

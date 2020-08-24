@@ -48,9 +48,9 @@ prog
   .command(
     'deletestack',
     `Delete the stack of technologies for the app.
-List of technologies [react, angular, vue, scala, node]`
+List of technologies [react, node]`
   )
-  .argument('[stackList...]', 'List of technologies [react, angular, vue, scala, node]')
+  .argument('[stackList...]', 'List of technologies [react, node]')
   .option('-l --list', 'Show stack of technologies list')
 
   .action(({ stackList }, { list }, logger) => {

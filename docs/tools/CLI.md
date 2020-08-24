@@ -81,25 +81,8 @@ to keep** by pressing Space:
 ```bash
 Choose your technology stack or stacks. Press <Space> to select a stack, <A> to toggle all, or <I> to invert the selection.
 - react & react native
-- angular
-- vue
 - node
-- scala
 ```
-
-Once you selected all the stacks you want to keep, press Enter. The console will show a confirmation.
-
-For example, you'll see the following confirmation in the command line provided that you selected `angular` and `node` 
-from the list:
-
-```bash
-? Choose your technology stack or stacks angular, node
-Done in 342.02s.
-```
-
-Your project will have the folders `packages/client-angular` and `packages/server`. Also, only the Angular 
-(`client-angular`) and Node.js (`server-ts`) modules under `modules/{module}` will be kept. All other packages and 
-modules will be fully removed and nonrecoverable.
 
 ## Basic Scaffolding with `addmodule`
 

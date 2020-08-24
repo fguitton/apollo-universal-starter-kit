@@ -46,17 +46,8 @@ The `yarn watch` command has a few specific implementations.
 
 Runs the client-side React application in development mode and watches the changes using hot code reload.
 
-This command is especially useful if you're developing a Scala back-end application or your custom back-end app and you
-don't need the Express application to run. Also note that the server-side rendering is _turned off_ if you run
+This command is especially useful if you don't need the Express application to run. Also note that the server-side rendering is _turned off_ if you run
 `yarn watch-client`.
-
-#### `yarn watch:angular`
-
-Runs only the Angular frontend application in development mode.
-
-#### `yarn watch:vue`
-
-Runs only the Vue frontend application in development mode.
 
 #### `yarn watch:android`
 

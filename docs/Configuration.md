@@ -93,10 +93,9 @@ Apollo Universal Starter Kit contains build-time settings in a  `build.config.js
 
 Apollo Universal Starter Kit uses various UI libraries for the three clients.
 
-With React, you can use either [Twitter Bootstrap] or [Ant Design]. For the React Native mobile app, you can use [NativeBase]. The Angular app comes with Angular Material, and the Vue client also uses Bootstrap.
+With React, you can use either [Twitter Bootstrap] or [Ant Design]. For the React Native mobile app, you can use [NativeBase].
 
-By default, Apollo Universal Starter Kit enables Twitter Bootstrap for the React and Vue clients and NativeBase for the
-mobile app. Angular uses the Material library.
+By default, Apollo Universal Starter Kit enables Twitter Bootstrap for the React client and NativeBase for the mobile app.
 
 You can enable Ant Design styles for React by changing the module `look` exports:
 
@@ -261,9 +260,6 @@ export default {
 
 Apollo Universal Starter Kit supports Server Side Rendering (SSR), and this features is enabled by default for both
 Express server application and React client app.
-
-**NOTE**: SSR is disabled by default for the **Angular application** in `packages/client-angular` because the current
-Angular app implementation doesn't support SSR.
 
 If you want to disable SSR for React and Express applications, you need to change a dedicated SpinJS setting in two
 `.spinrc.js` files:
