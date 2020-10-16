@@ -99,7 +99,7 @@
     "lint-staged": "^7.0.4",
     "lodash": "^4.17.4",
     "minilog": "^3.1.0",
-    "mysql2": "^1.5.1",
+    "mysql2": "^2.2.5",
     "nodemailer": "^4.4.1",
     "objection": "^2.0.7",
     "passport": "^0.4.0",
